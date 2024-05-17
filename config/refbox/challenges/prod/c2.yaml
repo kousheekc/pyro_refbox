@@ -9,7 +9,7 @@ llsfrb:
     name: "Production_C2"
     # max is 7 x 8
     field:
-      width: 5
+      width: 4
       height: 5
       # if true this effectively doubles the field size
       mirror: false

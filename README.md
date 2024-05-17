@@ -29,7 +29,7 @@ The main commands are
 
 ##### rc_start
 
-start the refbox and the vue frontend. the ui can then be accessed via: [http://localhost:8080/](http://localhost:8080/)
+start the refbox and the vue frontend. the ui can then be accessed via: [http://localhost/](http://localhost/)
 
 Main environment variables for configuration:
 - `REFBOX_IMAGE` image to use for refbox

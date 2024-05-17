@@ -9,7 +9,7 @@ llsfrb:
     name: "Production_C1"
     # max is 7 x 8
     field:
-      width: 5
+      width: 4
       height: 5
       # if true this effectively doubles the field size
       mirror: false
@@ -32,7 +32,7 @@ llsfrb:
       pause-duration: 5
 
       # orders are randomized according to the given spec
-    machines: [BS, CS1, RS1]
+    machines: [BS, CS1, RS1, DS]
     machine-setup:
       customize: true
       rs1-colors: [RING_BLUE, RING_YELLOW]
