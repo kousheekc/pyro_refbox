@@ -29,7 +29,7 @@ export SIMULATOR_IMAGE=quay.io/robocup-logistics/rcll-simulator
 
 export REFBOX_CONFIG=./../config/refbox
 export REFBOX_ARGS=
-
+export REFBOX_DIR=${rcll_get_started_dir}
 
 export RC_AUTO_SETUP=true
 export RC_AUTO_START=false
