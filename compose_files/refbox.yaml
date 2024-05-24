@@ -10,9 +10,6 @@ services:
     container_name: refbox
     image: "${REFBOX_IMAGE}:${REFBOX_TAG}"
     network_mode: "host"
-    depends_on:
-      mongodb-check:
-        condition: service_completed_successfully
     restart: "on-failure"
     command: llsf-refbox ${REFBOX_ARGS}
     volumes:

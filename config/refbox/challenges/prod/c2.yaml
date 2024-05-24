@@ -9,8 +9,8 @@ llsfrb:
     name: "Production_C2"
     # max is 7 x 8
     field:
-      width: 4
-      height: 5
+      width: 6
+      height: 4
       # if true this effectively doubles the field size
       mirror: false
     # Phases in which the machine positions are broadcasted
@@ -32,7 +32,7 @@ llsfrb:
       pause-duration: 5
 
       # orders are randomized according to the given spec
-    machines: [BS, CS1, RS1, RS2]
+    machines: [BS, CS1, RS1, RS2, DS]
     machine-setup:
       customize: true
       rs1-colors: [RING_BLUE, RING_YELLOW]
