@@ -32,7 +32,7 @@ llsfrb:
       pause-duration: 5
 
       # orders are randomized according to the given spec
-    machines: [BS, CS1, DS]
+    machines: [BS, CS1, RS1, RS2, DS]
     machine-setup:
       customize: true
       rs1-colors: [RING_BLUE, RING_YELLOW]
