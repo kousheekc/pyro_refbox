@@ -1,4 +1,3 @@
-version: "3"
 services:
   broker:
     image: ${MQTT_BROKER_IMAGE}:${MQTT_BROKER_TAG}

@@ -1,4 +1,3 @@
-version: '3.7'
 services:
   simulator:
     image: "${SIMULATOR_IMAGE}:${SIMULATOR_TAG}"

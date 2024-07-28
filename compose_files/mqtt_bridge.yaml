@@ -1,4 +1,3 @@
-version: '3.7'
 services:
   mqtt:
     image: "${MQTT_BRIDGE_IMAGE}:${MQTT_BRIDGE_TAG}"

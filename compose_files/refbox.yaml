@@ -1,4 +1,3 @@
-version: '3.7'
 services:
   mongodb-check:
     image: ${MONGODB_IMAGE}:${MONGODB_TAG}
