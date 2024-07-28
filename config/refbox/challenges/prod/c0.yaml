@@ -9,8 +9,8 @@ llsfrb:
     name: "Production_C0"
     # max is 7 x 8
     field:
-      width: 6
-      height: 4
+      width: 5
+      height: 5
       # if true this effectively doubles the field size
       mirror: false
     # Phases in which the machine positions are broadcasted

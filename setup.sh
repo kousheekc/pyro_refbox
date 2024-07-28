@@ -15,7 +15,7 @@ export MQTT_BROKER_TAG=latest
 export SIMULATOR_TAG=latest
 export SIMULATOR_FRONTEND_TAG=latest
 
-export REFBOX_COMPOSE_COMMAND=docker-compose
+export REFBOX_COMPOSE_COMMAND="docker compose"
 
 
 export REFBOX_FRONTEND_IMAGE=quay.io/robocup-logistics/rcll-refbox-frontend
